@@ -1,0 +1,25 @@
+{
+  "name": "@retech/commitlint-config-retech",
+  "version": "0.0.0",
+  "description": "commitlint-config-retech",
+  "author": "pengfei.zuo <469547164@qq.com>",
+  "homepage": "https://github.com/retech-fe/r-lint#readme",
+  "license": "ISC",
+  "main": "lib/commitlint-config-retech.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retech-fe/r-lint.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/retech-fe/r-lint/issues"
+  }
+}

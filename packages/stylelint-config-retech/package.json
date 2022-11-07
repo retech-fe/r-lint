@@ -1,0 +1,32 @@
+{
+  "name": "@retech/stylelint-config-retech",
+  "version": "0.0.0",
+  "description": "stylelint-config-retech",
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "pengfei.zuo <469547164@qq.com>",
+  "homepage": "https://github.com/retech-fe/r-lint#readme",
+  "license": "ISC",
+  "main": "lib/stylelint-config-retech.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retech-fe/r-lint.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/retech-fe/r-lint/issues"
+  }
+}

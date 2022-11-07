@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "main": "index.js",
+  "description": "",
+  "author": "pengfei.zuo <469547164@qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "husky": "^8.0.1",
+    "lerna": "^4.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

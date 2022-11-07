@@ -1,0 +1,29 @@
+{
+  "name": "@retech/prettier-config-retech",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "pengfei.zuo <pengfei.zuo@retech.work>",
+  "homepage": "https://github.com/retech-fe/r-lint#readme",
+  "license": "ISC",
+  "main": "lib/prettier-config-retech.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.opsretech.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retech-fe/r-lint.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/retech-fe/r-lint/issues"
+  }
+}
