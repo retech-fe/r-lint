@@ -4,10 +4,14 @@
   "description": "commitlint-config-retech",
   "author": "pengfei.zuo <469547164@qq.com>",
   "homepage": "https://github.com/retech-fe/r-lint#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/commitlint-config-retech.js",
+  "keywords": [
+    "prettier"
+  ],
   "files": [
-    "lib"
+    "index.js",
+    "README.md"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -21,5 +25,9 @@
   },
   "bugs": {
     "url": "https://github.com/retech-fe/r-lint/issues"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0"
   }
 }
