@@ -7,14 +7,13 @@
   ],
   "author": "pengfei.zuo <469547164@qq.com>",
   "homepage": "https://github.com/retech-fe/r-lint#readme",
-  "license": "ISC",
-  "main": "lib/stylelint-config-retech.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "license": "MIT",
+  "main": "index.js",
   "files": [
-    "lib"
+    "rules",
+    "index.js",
+    "package.json",
+    "README.md"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -28,5 +27,17 @@
   },
   "bugs": {
     "url": "https://github.com/retech-fe/r-lint/issues"
+  },
+  "dependencies": {
+    "@stylelint/postcss-css-in-js": "^0.38.0",
+    "postcss": "^8.4.18",
+    "postcss-less": "^6.0.0",
+    "postcss-syntax": "^0.36.2",
+    "stylelint": "^14.14.1",
+    "stylelint-config-css-modules": "^4.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.6.0",
+    "stylelint-order": "^5.0.0"
   }
 }
