@@ -83,9 +83,9 @@ module.exports = {
 - 使用`stylelint-config-prettier`来关闭和`prettier`冲突的规则
 - 使用 `stylelint-order` 强制按照某个顺序进行编码
 - 使用 `stylelint-declaration-block-no-ignored-properties`来保证某个属性不能和其他属性同时使用
-- 使用`stylelint-config-css-modules`来支持`css modules`的规则校验
+- 使用`stylelint-config-css-modules`来支持`css modules`的规则校验,同时需要安装`postcss`和`postcss-syntax`
 - 使用`@stylelint/postcss-css-in-js`来支持`css-in-js`的规则校验
-- 使用`postcss-less`来支持`less`文件的校验
+- 使用`postcss-less`来支持`less`文件语法的校验，同时需要安装`postcss`和`postcss-syntax`
 
 ###### 目的：
 
