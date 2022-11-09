@@ -1,11 +1,13 @@
-# `@retech/commitlint-config-retech`
+## CommitLint 规范
 
-> TODO: description
+Re:Tech 前端 CommitLint 规范
 
-## Usage
+#### 安装
 
-```
-const commitlintConfigRetech = require('@retech/commitlint-config-retech');
-
-// TODO: DEMONSTRATE API
+```shell
+npm install @retech/commitlint-config-retech -D
+# OR
+yarn add @retech/commitlint-config-retech --dev
+# OR
+pnpm add @retech/commitlint-config-retech -D
 ```
