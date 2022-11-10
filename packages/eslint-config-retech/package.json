@@ -4,10 +4,24 @@
   "description": "eslint-config-retech",
   "author": "pengfei.zuo <469547164@qq.com>",
   "homepage": "https://github.com/retech-fe/r-lint#readme",
-  "license": "ISC",
-  "main": "lib/eslint-config-retech.js",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-react",
+    "eslint-vue"
+  ],
   "files": [
-    "lib"
+    "rules",
+    "base.js",
+    "index.js",
+    "taro.js",
+    "next.js",
+    "typescript.js",
+    "react.js",
+    "vue.js",
+    "package.json",
+    "README.md"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -21,5 +35,29 @@
   },
   "bugs": {
     "url": "https://github.com/retech-fe/r-lint/issues"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "eslint": "^8.27.0",
+    "eslint-config-next": "^13.0.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-config-taro": "^3.5.7",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-vue": "^9.7.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.7.1"
   }
 }
